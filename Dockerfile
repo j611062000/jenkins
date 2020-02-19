@@ -16,7 +16,7 @@ RUN apt-get update && \
   stable" && \
   apt-get update && \
   apt-get -y --no-install-recommends install docker-ce && \
-  apt-get clean && \
+  apt-get clean \
 
   USER jenkins
 
